@@ -1,1 +1,17 @@
-{}
+{
+  "defaultCommandTimeout": 3000,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "video": true,
+  "ignoreTestFiles": "**/{1-getting-started,2-advanced-examples,uis}/*",
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  },
+  "video": true,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "reports/test-results-[hash].xml",
+    "toConsole": true
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-01-11T21:51:46" tests="0" file="cypress/integration/myTests/my1stTestCy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="mytest" timestamp="2022-01-11T21:51:46" tests="1" time="0.0000" failures="1">
+    <testcase name="mytest Check yandex main page" time="0.0000" classname="Check yandex main page">
+      <failure message="Syntax error, unrecognized expression: //input[@id=&apos;text&apos;]" type="Error"><![CDATA[Error: Syntax error, unrecognized expression: //input[@id='text']
+    at Function.Sizzle.error (https://yandex.ru/__cypress/runner/cypress_runner.js:109303:8)
+    at Sizzle.tokenize (https://yandex.ru/__cypress/runner/cypress_runner.js:109955:11)
+    at Sizzle.select (https://yandex.ru/__cypress/runner/cypress_runner.js:110382:20)
+    at Function.Sizzle [as find] (https://yandex.ru/__cypress/runner/cypress_runner.js:108607:9)
+    at jQuery.fn.init.find (https://yandex.ru/__cypress/runner/cypress_runner.js:110638:11)
+    at new jQuery.fn.init (https://yandex.ru/__cypress/runner/cypress_runner.js:110753:40)
+    at Object.query (https://yandex.ru/__cypress/runner/cypress_runner.js:183602:10)
+    at $Cy.$$ (https://yandex.ru/__cypress/runner/cypress_runner.js:171840:65)
+    at getElements (https://yandex.ru/__cypress/runner/cypress_runner.js:158741:20)
+    at tryCatcher (https://yandex.ru/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://yandex.ru/__cypress/runner/cypress_runner.js:10470:29)
+    at resolveElements (https://yandex.ru/__cypress/runner/cypress_runner.js:158791:67)
+    at Context.get (https://yandex.ru/__cypress/runner/cypress_runner.js:158802:14)
+    at https://yandex.ru/__cypress/runner/cypress_runner.js:170939:15
+    at tryCatcher (https://yandex.ru/__cypress/runner/cypress_runner.js:13196:23)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
