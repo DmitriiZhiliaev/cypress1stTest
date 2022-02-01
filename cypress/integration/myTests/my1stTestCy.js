@@ -1,17 +1,22 @@
+import {MainPage} from "../../fixtures/pages/mainPage";
+
 describe('mytest', () => {
+  let main
+
   beforeEach(() => {
     cy.visit('https://yandex.ru')
+    main = new MainPage()
+
   })
 
   it('Check yandex main page', () => {
+    main.getIcons().should('have.length', 9)
+    main.getIconTitles().should('have.length', 10)
+    main.getIconTitles().first().should("have.text",'Маркет')
+    main.getIconTitles().last().should("have.text",'ещё')
 
-    cy.get('div.services-new__icon').should('have.length', 9)
-
-    cy.get('div.services-new__item-title').should('have.length', 10)
-    cy.get('div.services-new__item-title').first().should("have.text",'Маркет')
-    cy.get('div.services-new__item-title').last().should("have.text",'ещё')
-
-    cy.get('.input__input.mini-suggest__input').type(`'T-Systems'{enter}`)
+    main.getInputField().type(`T-Systems{enter}`)
+    main.getResultsLinks().should("have.length",10)
     // We can go even further and check that the default todos each contain
     // the correct text. We use the `first` and `last` functions
     // to get just the first and last matched elements individually,

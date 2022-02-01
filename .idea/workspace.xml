@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d17594d-f050-46dd-860f-cf14cb5fea0a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/cypress/fixtures/pages/mainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/fixtures/pages/translaterPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/integration/myTests/my1stTestCy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/myTests/my1stTestCy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/2-advanced-examples/misc.spec.js/my-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/1-getting-started/todo.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/actions.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/aliasing.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/assertions.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/connectors.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/cookies.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/cypress_api.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/files.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/local_storage.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/location.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/misc.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/navigation.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/network_requests.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/querying.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/spies_stubs_clocks.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/traversal.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/utilities.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/viewport.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/waiting.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/window.spec.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/myTests/my1stTestCy.js.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,12 +87,23 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Cypress/From Alex/cypress-demo" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,6 +135,7 @@
       <updated>1640708767199</updated>
       <workItem from="1641931809440" duration="1371000" />
       <workItem from="1641934095936" duration="3818000" />
+      <workItem from="1642090903049" duration="8552000" />
     </task>
     <servers />
   </component>
@@ -174,6 +165,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cypress/fixtures/example.json">
